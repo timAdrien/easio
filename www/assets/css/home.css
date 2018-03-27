@@ -2,13 +2,15 @@ a {
     color: white;
     text-align: center; /* For Edge */
     text-align-last: center;
+    font-weight: bold;
 }
 
 #imgLogo {
     background-color: inherit;
-    height: 50px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
 }
+
 /*
 #divImgLogo {
     height: 80%;
