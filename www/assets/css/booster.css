@@ -1,6 +1,11 @@
 
 .imgsBackground {
     background-color: inherit;
-    width: 80%;
+    width: 100%;
+    max-width: 100px;
     height: 100px;
+}
+
+ion-img.img-unloaded img {
+    display: block;
 }
