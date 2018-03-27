@@ -1,0 +1,8 @@
+{
+  "name": "easio",
+  "app_id": "a372c7ff",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
