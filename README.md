@@ -7,7 +7,7 @@ ionic serve
 
 # DEPLOIEMENT 
 
-git add .
-git commit -m "Your Awesome Changes!"
-git push origin master
+git add .  
+git commit -m "Your Awesome Changes!"  
+git push origin master  
 
