@@ -1,3 +1,83 @@
 #imgLogo {
     background-color: white;
 }
+
+#centerMainMenu {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+#linksMainMenu {
+    position: absolute;
+}
+
+.linkMainMenu {
+    position: absolute;
+    white-space: nowrap;
+}
+
+#comiteEntreprise {
+    top: 20px;
+    left: -40px;
+}
+
+#skalisPartageSalarial {
+    top: -20px;
+    left: 80px;
+}
+
+#formations {
+    top: 20px;
+    left: 220px;
+}
+
+#talentToday {
+    top: 70px;
+    left: 280px;
+}
+
+#talents {
+    top: 125px;
+    left: 280px;
+}
+
+#news {
+    top: 180px;
+    left: 280px;
+}
+
+#penseBete {
+    top: 240px;
+    left: 270px;
+}
+
+#offreEmploi {
+    top: 280px;
+    left: 190px;
+}
+
+#agendaGoogle {
+    top: 280px;
+    left: 20px;
+}
+
+#missions {
+    top: 240px;
+    left: -20px;
+}
+
+#incwo {
+    top: 180px;
+    left: -30px;
+}
+
+#carnetAdresses {
+    top: 125px;
+    left: -100px;
+}
+
+#hubGrade {
+    top: 70px;
+    left: -50px;
+}
