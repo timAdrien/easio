@@ -46,13 +46,13 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 194:
+/***/ 193:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -70,9 +70,9 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\wamp64\www\easio\src\pages\home\home.html"*/'\n\n<link href="assets/css/home.css" rel="stylesheet">\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <ion-grid style="height: 100%">\n\n    <ion-row justify-content-center align-items-center style="height: 100%">\n\n      <ion-img id="imgLogo" width="200" height="200" src="assets/imgs/logoEasio.png"></ion-img>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\wamp64\www\easio\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Applications/MAMP/htdocs/byoc-easio/easio/src/pages/home/home.html"*/'<link href="assets/css/home.css" rel="stylesheet">\n<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-grid style="height: 100%">\n    <ion-row justify-content-center align-items-center style="height: 100%">\n      <ion-img id="imgLogo" width="200" height="200" src="assets/imgs/logoEasio.png"></ion-img>\n    </ion-row>\n  </ion-grid>\n</ion-content>'/*ion-inline-end:"/Applications/MAMP/htdocs/byoc-easio/easio/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
     return HomePage;
 }());
@@ -181,8 +181,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -247,7 +245,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -394,5 +391,5 @@ var LoginPage = /** @class */ (function () {
 
 /***/ })
 
-},[196]);
+},[195]);
 //# sourceMappingURL=main.js.map
