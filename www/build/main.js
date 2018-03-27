@@ -1,51 +1,12 @@
 webpackJsonp([4],{
 
-/***/ 100:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BoosterPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var BoosterPage = /** @class */ (function () {
-    function BoosterPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BoosterPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BoosterPage');
-    };
-    BoosterPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-booster',template:/*ion-inline-start:"/Applications/MAMP/htdocs/byoc-easio/easio/src/pages/booster/booster.html"*/'<ion-header>\n    <ion-toolbar color="navbarEASIO">\n        <ion-buttons style="position: absolute;">\n            <button ion-button menuToggle>\n                <ion-icon name="menu"></ion-icon>\n            </button>\n        </ion-buttons>\n        <ion-title text-center>Booster</ion-title>\n    </ion-toolbar>\n</ion-header>\n\n<style>\n    .example-card {\n        max-width: 400px;\n    }\n\n    .example-header-image {\n        background-image: url(\'https://material.angular.io/assets/img/examples/shiba1.jpg\');\n        background-size: cover;\n    }\n</style>\n\n<ion-content padding>\n\n    <ion-grid style="height: 100%; width:100%; padding: 0;">\n        <ion-row>\n            <ion-col col-12>\n                <ion-row>\n                    <ion-col class="titleSection" id="titleSectionMission">\n                        <ion-row align-items-center>\n                            <mat-icon>track_changes</mat-icon>\n                            &nbsp;&nbsp;Missions\n                        </ion-row>\n                    </ion-col>\n                </ion-row>\n            </ion-col>\n            <ion-col col-12>\n                <ion-row style="height:20%">\n                    <ion-col id="sectionMission">\n                        <mat-card class="firstMission">\n                            <mat-card-header>\n                                <div mat-card-avatar class="example-header-image"></div>\n                                <mat-card-title>Intergen.digital</mat-card-title>\n                                <mat-card-subtitle>\n                                    <mat-icon>location_on</mat-icon>\n                                    <b>Pully</b>, Suisse\n                                </mat-card-subtitle>\n                            </mat-card-header>\n                            <mat-card-content>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Budget\n                                    </ion-col>\n                                    <ion-col>\n                                        Sur devis\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Livraison\n                                    </ion-col>\n                                    <ion-col>\n                                        31/12/2019\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Candidats\n                                    </ion-col>\n                                    <ion-col>\n                                        0\n                                    </ion-col>\n                                </ion-row>\n                            </mat-card-content>\n                        </mat-card>\n                    </ion-col>\n                    <ion-col>\n                        <mat-card class="firstMission">\n                            <mat-card-header>\n                                <div mat-card-avatar class="example-header-image"></div>\n                                <mat-card-title>Quotient.digital</mat-card-title>\n                                <mat-card-subtitle>\n                                    <mat-icon>location_on</mat-icon>\n                                    <b>Pully</b>, Suisse\n                                </mat-card-subtitle>\n                            </mat-card-header>\n                            <mat-card-content>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Budget\n                                    </ion-col>\n                                    <ion-col>\n                                        Sur devis\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Livraison\n                                    </ion-col>\n                                    <ion-col>\n                                        31/12/2019\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Candidats\n                                    </ion-col>\n                                    <ion-col>\n                                        1\n                                    </ion-col>\n                                </ion-row>\n                            </mat-card-content>\n                        </mat-card>\n                    </ion-col>\n                </ion-row>\n            </ion-col>\n            <ion-col col-12>\n                <mat-divider></mat-divider>\n            </ion-col>\n            <ion-col col-12>\n                <ion-row>\n                    <ion-col col-12>\n                        <ion-row>\n                            <ion-col class="titleSection" id="titleSectionOffreEmploi">\n                                <ion-row align-items-center>\n                                    <mat-icon>work</mat-icon>\n                                    &nbsp;Offre d\'emploi\n                                </ion-row>\n                            </ion-col>\n                        </ion-row>\n                    </ion-col>\n                    <ion-col col-12>\n                        <ion-row style="height:20%">\n                            <ion-col>\n                                <mat-card class="firstMission">\n                                    <mat-card-header>\n                                        <div mat-card-avatar class="example-header-image"></div>\n                                        <mat-card-title>Agent de vente indépendant H-F 35-45 ans</mat-card-title>\n                                        <mat-card-subtitle>\n                                            <mat-icon>location_on</mat-icon>\n                                            <b>Marseille</b>, France\n                                        </mat-card-subtitle>\n                                    </mat-card-header>\n                                    <mat-card-content>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Salaire\n                                            </ion-col>\n                                            <ion-col>\n                                                3€\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Contrat\n                                            </ion-col>\n                                            <ion-col>\n                                                Temps partagé\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Candidats\n                                            </ion-col>\n                                            <ion-col>\n                                                2\n                                            </ion-col>\n                                        </ion-row>\n                                    </mat-card-content>\n                                </mat-card>\n                            </ion-col>\n                            <ion-col>\n                                <mat-card class="firstMission">\n                                    <mat-card-header>\n                                        <div mat-card-avatar class="example-header-image"></div>\n                                        <mat-card-title>Agent de vente indépendant H-F 35-45 ans</mat-card-title>\n                                        <mat-card-subtitle>\n                                            <mat-icon>location_on</mat-icon>\n                                            <b>Bourg en Bresse</b>, France\n                                        </mat-card-subtitle>\n                                    </mat-card-header>\n                                    <mat-card-content>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Budget\n                                            </ion-col>\n                                            <ion-col>\n                                                3€\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Livraison\n                                            </ion-col>\n                                            <ion-col>\n                                                Temps partagé\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Candidats\n                                            </ion-col>\n                                            <ion-col>\n                                                0\n                                            </ion-col>\n                                        </ion-row>\n                                    </mat-card-content>\n                                </mat-card>\n                            </ion-col>\n                        </ion-row>\n                    </ion-col>\n                </ion-row>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/byoc-easio/easio/src/pages/booster/booster.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BoosterPage);
-    return BoosterPage;
-}());
-
-//# sourceMappingURL=booster.js.map
-
-/***/ }),
-
-/***/ 101:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CollaboratePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -78,15 +39,54 @@ var CollaboratePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 102:
+/***/ 107:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BoosterPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var BoosterPage = /** @class */ (function () {
+    function BoosterPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BoosterPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BoosterPage');
+    };
+    BoosterPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-booster',template:/*ion-inline-start:"/Applications/MAMP/htdocs/byoc-easio/easio/src/pages/booster/booster.html"*/'<link href="assets/css/booster.css" rel="stylesheet">\n<ion-header>\n    <ion-toolbar color="navbarEASIO">\n        <ion-buttons style="position: absolute;">\n            <button ion-button menuToggle>\n                <ion-icon name="menu"></ion-icon>\n            </button>\n        </ion-buttons>\n        <ion-title text-center>Booster</ion-title>\n    </ion-toolbar>\n</ion-header>\n\n<style>\n    .example-card {\n        max-width: 400px;\n    }\n\n    .example-header-image {\n        background-image: url(\'https://material.angular.io/assets/img/examples/shiba1.jpg\');\n        background-size: cover;\n    }\n</style>\n\n<ion-content padding>\n\n    <ion-grid style="height: 100%; width:100%; padding: 0;">\n        <ion-row>\n            <ion-col col-12>\n                <ion-row>\n                    <ion-col class="titleSection" id="titleSectionMission">\n                        <ion-row align-items-center>\n                            <mat-icon>track_changes</mat-icon>\n                            &nbsp;&nbsp;Missions\n                        </ion-row>\n                    </ion-col>\n                </ion-row>\n            </ion-col>\n            <ion-col col-12>\n                <ion-row style="height:20%">\n                    <ion-col id="sectionMission">\n                        <mat-card class="firstMission">\n                            <mat-card-header>\n                                <div mat-card-avatar class="example-header-image"></div>\n                                <mat-card-title>Intergen.digital</mat-card-title>\n                                <mat-card-subtitle>\n                                    <mat-icon>location_on</mat-icon>\n                                    <b>Pully</b>, Suisse\n                                </mat-card-subtitle>\n                            </mat-card-header>\n                            <mat-card-content>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Budget\n                                    </ion-col>\n                                    <ion-col>\n                                        Sur devis\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Livraison\n                                    </ion-col>\n                                    <ion-col>\n                                        31/12/2019\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Candidats\n                                    </ion-col>\n                                    <ion-col>\n                                        0\n                                    </ion-col>\n                                </ion-row>\n                            </mat-card-content>\n                        </mat-card>\n                    </ion-col>\n                    <ion-col>\n                        <mat-card class="firstMission">\n                            <mat-card-header>\n                                <div mat-card-avatar class="example-header-image"></div>\n                                <mat-card-title>Quotient.digital</mat-card-title>\n                                <mat-card-subtitle>\n                                    <mat-icon>location_on</mat-icon>\n                                    <b>Pully</b>, Suisse\n                                </mat-card-subtitle>\n                            </mat-card-header>\n                            <mat-card-content>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Budget\n                                    </ion-col>\n                                    <ion-col>\n                                        Sur devis\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Livraison\n                                    </ion-col>\n                                    <ion-col>\n                                        31/12/2019\n                                    </ion-col>\n                                </ion-row>\n                                <ion-row style="height:20%">\n                                    <ion-col>\n                                        Candidats\n                                    </ion-col>\n                                    <ion-col>\n                                        1\n                                    </ion-col>\n                                </ion-row>\n                            </mat-card-content>\n                        </mat-card>\n                    </ion-col>\n                </ion-row>\n            </ion-col>\n            <ion-col col-12>\n                <mat-divider></mat-divider>\n            </ion-col>\n            <ion-col col-12>\n                <ion-row>\n                    <ion-col col-12>\n                        <ion-row>\n                            <ion-col class="titleSection" id="titleSectionOffreEmploi">\n                                <ion-row align-items-center>\n                                    <mat-icon>work</mat-icon>\n                                    &nbsp;&nbsp;Offre d\'emploi\n                                </ion-row>\n                            </ion-col>\n                        </ion-row>\n                    </ion-col>\n                    <ion-col col-12>\n                        <ion-row style="height:20%">\n                            <ion-col>\n                                <mat-card class="firstMission">\n                                    <mat-card-header>\n                                        <div mat-card-avatar class="example-header-image"></div>\n                                        <mat-card-title>Agent de vente indépendant H-F 35-45 ans</mat-card-title>\n                                        <mat-card-subtitle>\n                                            <mat-icon>location_on</mat-icon>\n                                            <b>Marseille</b>, France\n                                        </mat-card-subtitle>\n                                    </mat-card-header>\n                                    <mat-card-content>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Salaire\n                                            </ion-col>\n                                            <ion-col>\n                                                3€\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Contrat\n                                            </ion-col>\n                                            <ion-col>\n                                                Temps partagé\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Candidats\n                                            </ion-col>\n                                            <ion-col>\n                                                2\n                                            </ion-col>\n                                        </ion-row>\n                                    </mat-card-content>\n                                </mat-card>\n                            </ion-col>\n                            <ion-col>\n                                <mat-card class="firstMission">\n                                    <mat-card-header>\n                                        <div mat-card-avatar class="example-header-image"></div>\n                                        <mat-card-title>Agent de vente indépendant H-F 35-45 ans</mat-card-title>\n                                        <mat-card-subtitle>\n                                            <mat-icon>location_on</mat-icon>\n                                            <b>Bourg en Bresse</b>, France\n                                        </mat-card-subtitle>\n                                    </mat-card-header>\n                                    <mat-card-content>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Budget\n                                            </ion-col>\n                                            <ion-col>\n                                                3€\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Livraison\n                                            </ion-col>\n                                            <ion-col>\n                                                Temps partagé\n                                            </ion-col>\n                                        </ion-row>\n                                        <ion-row style="height:20%">\n                                            <ion-col>\n                                                Candidats\n                                            </ion-col>\n                                            <ion-col>\n                                                0\n                                            </ion-col>\n                                        </ion-row>\n                                    </mat-card-content>\n                                </mat-card>\n                            </ion-col>\n                        </ion-row>\n                    </ion-col>\n                </ion-row>\n            </ion-col>\n            <ion-col col-12>\n                <mat-divider></mat-divider>\n            </ion-col>\n            <ion-col col-12>\n                <ion-row>\n                    <ion-col col-12>\n                        <ion-row>\n                            <ion-col class="titleSection" id="titleSectionFormations">\n                                <ion-row align-items-center>\n                                    <mat-icon>school</mat-icon>\n                                    &nbsp;&nbsp;Formations\n                                </ion-row>\n                            </ion-col>\n                        </ion-row>\n                    </ion-col>\n                    <ion-col col-12>\n                        <ion-row>\n                            <ion-col>\n                                <ion-row>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <b>Photoshop</b>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <ion-img class="imgsBackground" src="assets/imgs/photoshop.png"></ion-img>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            Formation en ligne\n                                        </ion-row>\n                                    </ion-col>\n                                </ion-row>\n                            </ion-col>\n                            <ion-col>\n                                <ion-row>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <b>Excel</b>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <ion-img class="imgsBackground"\n                                                     src="assets/imgs/excel.png"></ion-img>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            Formation en ligne\n                                        </ion-row>\n                                    </ion-col>\n                                </ion-row>\n                            </ion-col>\n                            <ion-col>\n                                <ion-row>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <b>Illustrator</b>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <ion-img class="imgsBackground"\n                                                     src="assets/imgs/illustrator.png"></ion-img>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            Formation en ligne\n                                        </ion-row>\n                                    </ion-col>\n                                </ion-row>\n                            </ion-col>\n                            <ion-col>\n                                <ion-row>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <b>Cursus stratégique</b>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            <ion-img class="imgsBackground"\n                                                     src="assets/imgs/certifie.png"></ion-img>\n                                        </ion-row>\n                                    </ion-col>\n                                    <ion-col col-12>\n                                        <ion-row justify-content-center align-items-center>\n                                            Formation certifiante\n                                        </ion-row>\n                                    </ion-col>\n                                </ion-row>\n                            </ion-col>\n                        </ion-row>\n                    </ion-col>\n                </ion-row>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/byoc-easio/easio/src/pages/booster/booster.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BoosterPage);
+    return BoosterPage;
+}());
+
+//# sourceMappingURL=booster.js.map
+
+/***/ }),
+
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(81);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -129,13 +129,13 @@ var LoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 103:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -174,7 +174,7 @@ var RegisterPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 113:
+/***/ 121:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -187,28 +187,28 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 113;
+webpackEmptyAsyncContext.id = 121;
 
 /***/ }),
 
-/***/ 154:
+/***/ 164:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/booster/booster.module": [
-		283,
+		306,
 		3
 	],
 	"../pages/collaborate/collaborate.module": [
-		284,
+		305,
 		2
 	],
 	"../pages/login/login.module": [
-		285,
+		307,
 		1
 	],
 	"../pages/register/register.module": [
-		286,
+		308,
 		0
 	]
 };
@@ -223,18 +223,18 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 154;
+webpackAsyncContext.id = 164;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 199:
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(235);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -242,28 +242,28 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 222:
+/***/ 235:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_booster_booster__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_collaborate_collaborate__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_register_register__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_platform_browser_animations__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_material_card__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_booster_booster__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_collaborate_collaborate__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_register_register__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_platform_browser_animations__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_material_card__ = __webpack_require__(286);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__angular_material_icon__ = __webpack_require__(288);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_material_divider__ = __webpack_require__(299);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_material_list__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_material_divider__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_material_list__ = __webpack_require__(296);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -305,8 +305,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/booster/booster.module#BoosterPageModule', name: 'BoosterPage', segment: 'booster', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/collaborate/collaborate.module#CollaboratePageModule', name: 'CollaboratePage', segment: 'collaborate', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/booster/booster.module#BoosterPageModule', name: 'BoosterPage', segment: 'booster', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] }
                     ]
@@ -341,19 +341,19 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 265:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_booster_booster__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_collaborate_collaborate__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_booster_booster__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_collaborate_collaborate__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -415,13 +415,13 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 274:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -472,13 +472,13 @@ var ListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 77:
+/***/ 81:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -507,5 +507,5 @@ var HomePage = /** @class */ (function () {
 
 /***/ })
 
-},[199]);
+},[215]);
 //# sourceMappingURL=main.js.map

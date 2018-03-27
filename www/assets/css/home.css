@@ -5,10 +5,6 @@ a {
     font-weight: bold;
 }
 
-ion-img img {
-    height: 100%;
-}
-
 #imgLogo {
     background-color: inherit;
     height: 100%;
