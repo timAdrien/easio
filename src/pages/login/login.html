@@ -25,15 +25,16 @@
 
   </ion-list>
 
-  <div padding>
-    <button ion-button color="primary" block>Connexion</button>
+  <div padding >
+    <button ion-button color="primary" block [navPush]="nxtHome">Se connecter</button>
   </div>
 
-  <ion-grid>
+  <p class="text" style="font-family:open-sans; font-size:14px;">Mot de passe oublié ?</p>
+
+  <ion-grid class="btnregister">
     <ion-row justify-content-center align-items-center style="height: 100%">
-      <button ion-button clear (click)="YourFancyButton()">Je m'inscrit !</button>
+      <button ion-button clear [navPush]="nxtRegister">Je m'inscris !</button>
     </ion-row>
   </ion-grid>
 
 </ion-content>
-
