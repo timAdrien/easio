@@ -2,4 +2,5 @@
 .imgsBackground {
     background-color: inherit;
     width: 50%;
+    min-height: 200px;
 }
