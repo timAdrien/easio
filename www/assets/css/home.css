@@ -1,83 +1,88 @@
+a {
+    color: white;
+    text-align: center; /* For Edge */
+    text-align-last: center;
+}
+
 #imgLogo {
-    background-color: white;
+    background-color: inherit;
+    height: 50px;
+    width: 50px;
+}
+/*
+#divImgLogo {
+    height: 80%;
+    width: 80%;
 }
 
 #centerMainMenu {
+    z-index: 2;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
 }
 
 #linksMainMenu {
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
+*/
+
 .linkMainMenu {
-    position: absolute;
-    white-space: nowrap;
+    height: 100%;
+    width: 100%;
 }
 
 #comiteEntreprise {
-    top: 20px;
-    left: -40px;
+    background-color: #c34b98;
 }
 
 #skalisPartageSalarial {
-    top: -20px;
-    left: 80px;
+    background-color: #ee68b1;
 }
 
 #formations {
-    top: 20px;
-    left: 220px;
+    background-color: #e6345c;
 }
 
 #talentToday {
-    top: 70px;
-    left: 280px;
+    background-color: #ed7079;
 }
 
 #talents {
-    top: 125px;
-    left: 280px;
+    background-color: #fbc641;
 }
 
 #news {
-    top: 180px;
-    left: 280px;
+    background-color: #fef273;
 }
 
 #penseBete {
-    top: 240px;
-    left: 270px;
+    background-color: #6ab95c;
 }
 
 #offreEmploi {
-    top: 280px;
-    left: 190px;
+    background-color: #67bf8f;
 }
 
 #agendaGoogle {
-    top: 280px;
-    left: 20px;
+    background-color: #2facc0;
 }
 
 #missions {
-    top: 240px;
-    left: -20px;
+    background-color: #68c5ed;
 }
 
 #incwo {
-    top: 180px;
-    left: -30px;
+    background-color: #2d84bf;
 }
 
 #carnetAdresses {
-    top: 125px;
-    left: -100px;
+    background-color: #708ebe;
 }
 
 #hubGrade {
-    top: 70px;
-    left: -50px;
+    background-color: #c34b98;
 }
